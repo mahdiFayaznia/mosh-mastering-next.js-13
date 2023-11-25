@@ -3,7 +3,7 @@ import { z } from "zod";
 // validation rules
 const schema = z.object({
   name: z.string().min(3),
-  // email: z.string().email(),
+  email: z.string().email(),
   // age: z.number(),
 });
 
